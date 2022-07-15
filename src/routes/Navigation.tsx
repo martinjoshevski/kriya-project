@@ -6,9 +6,16 @@ import { Outlet } from "react-router-dom";
 function Navigation() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="transparent">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="transparent"
+        style={{ fontFamily: `"Poppins", sans-serif` }}
+      >
         <Container>
-          <Navbar.Brand href="/">Kriya</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src="/images/logo/logo.png" alt="logo" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
@@ -17,7 +24,9 @@ function Navigation() {
               <Nav.Link href="/products">Our Products</Nav.Link>
               <Nav.Link href="/impact">Our Impact</Nav.Link>
               <Nav.Link href="/r&d">Our R&D</Nav.Link>
-              <Nav.Link href="/">===</Nav.Link>
+              <Nav.Link href="/">
+                <img src="/images/homepage/burger.png" alt="burger" />
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
