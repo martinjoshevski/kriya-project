@@ -27,7 +27,7 @@ function Footer() {
             </h6>
             <div
               style={{ filter: "grayscale(100%)" }}
-              className="d-flex flex-row justify-content-between w-75 align-content-start"
+              className="pt-3 d-flex flex-row justify-content-between w-75 align-content-start"
             >
               <div>
                 <a href="/">
