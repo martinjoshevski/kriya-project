@@ -6,9 +6,6 @@ function Products() {
   const [isHovering, setIsHovering] = useState(false);
   const [isHovering1, setIsHovering1] = useState(false);
   const [isHovering2, setIsHovering2] = useState(false);
-  const [isHoveringBackground, setIsHoveringBackground] = useState(false);
-  const [isHoveringBackground1, setIsHoveringBackground1] = useState(false);
-  const [isHoveringBackground2, setIsHoveringBackground2] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -31,29 +28,23 @@ function Products() {
   const handleMouseLeave2 = () => {
     setIsHovering2(false);
   };
-  const handleMouseEnterBackground = () => {
-    setIsHoveringBackground(true);
-  };
 
-  const handleMouseLeaveBackground = () => {
-    setIsHoveringBackground(false);
-  };
-  const handleMouseEnterBackground1 = () => {
-    setIsHoveringBackground1(true);
-  };
-
-  const handleMouseLeaveBackground1 = () => {
-    setIsHoveringBackground1(false);
-  };
-  const handleMouseEnterBackground2 = () => {
-    setIsHoveringBackground2(true);
-  };
-
-  const handleMouseLeaveBackground2 = () => {
-    setIsHoveringBackground2(false);
-  };
   return (
     <>
+      <style type="text/css">
+        {`
+    .btn-black {
+      background-color: #202020;
+      color: white;
+    }
+    .btn-black:hover {
+      background-color: #d73b8b;
+      box-shadow: 0px 0px 60px 6px rgba(215,59,140,0.25);
+      color: white;
+    }
+    
+    `}
+      </style>
       <Container className="text-left mt-5 mb-5 w-75">
         <Row>
           <Col />
@@ -101,12 +92,8 @@ function Products() {
               temperature-controlled smart sample transport devices.
             </p>
             <Button
-              variant="danger"
+              variant="black"
               style={{
-                backgroundColor: !isHoveringBackground ? "#202020" : "#d73b8b",
-                boxShadow: !isHoveringBackground
-                  ? ""
-                  : "0px 0px 60px 6px rgba(215,59,140,0.25)",
                 border: "none",
                 fontSize: "12px",
                 fontWeight: 600,
@@ -115,31 +102,30 @@ function Products() {
                 borderRadius: 0,
                 letterSpacing: "1px",
               }}
-              onMouseEnter={handleMouseEnterBackground}
-              onMouseLeave={handleMouseLeaveBackground}
             >
               READ MORE <AiOutlineArrowRight />
             </Button>{" "}
           </Col>
-          <Col className="mt-3 text-center  d-none d-lg-block">
+          <Col className="mt-3 text-center" md={6}>
             <img
               src="/images/homepage/eprouvette.png"
               alt="e"
-              className="text-center"
+              className="text-center img-fluid"
             />
           </Col>
         </Row>
 
         <Row className="mb-5">
           <Col
-            className="mt-3 text-center d-none d-lg-block"
+            className="mt-3 text-center"
             xs={{ order: 2 }}
             lg={{ order: 1 }}
+            md={6}
           >
             <img
-              className="text-center"
+              className="text-center img-fluid"
               src="/images/homepage/jar.png"
-              alt=""
+              alt="jar"
             />
           </Col>
           <Col className="mt-5" xs={{ order: 1 }} lg={{ order: 2 }}>
@@ -174,12 +160,8 @@ function Products() {
               </span>
             </p>
             <Button
-              variant="danger"
+              variant="black"
               style={{
-                backgroundColor: !isHoveringBackground1 ? "#202020" : "#d73b8b",
-                boxShadow: !isHoveringBackground1
-                  ? ""
-                  : "0px 0px 60px 6px rgba(215,59,140,0.25)",
                 border: "none",
                 fontSize: "12px",
                 fontWeight: 600,
@@ -188,8 +170,6 @@ function Products() {
                 borderRadius: 0,
                 letterSpacing: "1px",
               }}
-              onMouseEnter={handleMouseEnterBackground1}
-              onMouseLeave={handleMouseLeaveBackground1}
             >
               Explore More <AiOutlineArrowRight />
             </Button>{" "}
@@ -197,14 +177,15 @@ function Products() {
         </Row>
         <Row>
           <Col
-            className="mt-3 text-center d-none d-lg-block"
+            className="mt-3 text-center"
             xs={{ order: 2 }}
             lg={{ order: 2 }}
+            md={6}
           >
             <img
-              className="text-center "
+              className="text-center img-fluid"
               src="/images/homepage/monitor.png"
-              alt=""
+              alt="monitor"
             />
           </Col>
           <Col className="mt-5" xs={{ order: 1 }} lg={{ order: 1 }}>
@@ -232,12 +213,8 @@ function Products() {
               patient experience, and enhance diabetes management.{" "}
             </p>
             <Button
-              variant="danger"
+              variant="black"
               style={{
-                backgroundColor: !isHoveringBackground2 ? "#202020" : "#d73b8b",
-                boxShadow: !isHoveringBackground2
-                  ? ""
-                  : "0px 0px 60px 6px rgba(215,59,140,0.25)",
                 border: "none",
                 fontSize: "12px",
                 fontWeight: 600,
@@ -246,8 +223,6 @@ function Products() {
                 borderRadius: 0,
                 letterSpacing: "1px",
               }}
-              onMouseEnter={handleMouseEnterBackground2}
-              onMouseLeave={handleMouseLeaveBackground2}
             >
               Explore More <AiOutlineArrowRight />
             </Button>{" "}
