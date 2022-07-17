@@ -50,7 +50,10 @@ function Quality() {
             />
           </Col>
           <Col className="mt-5">
-            <h1 className="pt-5 mt-5 pb-1 w-75" style={{ fontWeight: 700 }}>
+            <h1
+              className="pt-5 mt-5 pb-1 w-sm-100 w-lg-75"
+              style={{ fontWeight: 700 }}
+            >
               Creating a healthy world
             </h1>
             <div
@@ -64,7 +67,7 @@ function Quality() {
               {""}
             </div>
 
-            <h6 className="w-75">
+            <h6 className="w-sm-100 w-lg-75 text-sm-center text-lg-start">
               We believe that only when every section of our society can get
               access to quality healthcare, can we dream of such a world. And we
               keep our vision at the forefront of every endeavor.
