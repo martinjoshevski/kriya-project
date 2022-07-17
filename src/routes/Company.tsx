@@ -1,6 +1,8 @@
 import AboutBanner from "../components/About/AboutBanner";
 import Culture from "../components/About/Culture";
 import EmployingSlider from "../components/About/EmployingSlider";
+import Founder from "../components/About/Founder";
+import GuidingLights from "../components/About/GuidingLights";
 import Quality from "../components/About/Quality";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
@@ -22,6 +24,8 @@ function Company() {
         <Quality />
         <EmployingSlider />
         <Culture />
+        <GuidingLights />
+        <Founder />
         <Footer />
       </div>
     </div>

@@ -19,11 +19,8 @@ export default class EmployingSlider extends Component {
   render() {
     const settings = {
       dots: false,
-      className: "center",
-      centerMode: true,
-      infinite: true,
-      centerPadding: "60px",
-      slidesToShow: 3,
+      infinite: false,
+      slidesToShow: 3.5,
       speed: 500,
       responsive: [
         {
@@ -124,64 +121,78 @@ export default class EmployingSlider extends Component {
                 <Col sm={9} className="text-center pt-2 mt-2 pb-1">
                   <Slider ref={(c) => (this.slider = c)} {...settings}>
                     <div className="w-75">
-                      <img
-                        src="/images/about/emp1.png"
-                        alt="e1"
-                        className="mb-1"
-                      />
-                      <p className="pt-3 text-start">
-                        Leverage high- quality data for error-proof diagnostics
-                      </p>
+                      <div className="p-2 bg-white" style={{ height: "200px" }}>
+                        <img
+                          src="/images/about/emp1.png"
+                          alt="e1"
+                          className="mb-1"
+                        />
+                        <p className="pt-4 text-start text-break">
+                          Leverage high- quality data for error-proof
+                          diagnostics
+                        </p>
+                      </div>
                     </div>
                     <div className="w-75">
-                      <img
-                        src="/images/about/emp2.png"
-                        alt="e1"
-                        className="mb-1"
-                      />
-                      <p className="pt-3 text-start">
-                        Empower healthcare systems by connecting providers
-                      </p>
+                      <div className="p-2 bg-white" style={{ height: "200px" }}>
+                        <img
+                          src="/images/about/emp2.png"
+                          alt="e1"
+                          className="mb-1"
+                        />
+                        <p className="pt-4 text-start text-break">
+                          Empower healthcare systems by connecting providers
+                        </p>
+                      </div>
                     </div>
                     <div className="w-75">
-                      <img
-                        src="/images/about/emp3.png"
-                        alt="e1"
-                        className="mb-1"
-                      />
-                      <p className="pt-3 text-start">
-                        Optimize for low-cost solutions
-                      </p>
+                      <div className="p-2 bg-white" style={{ height: "200px" }}>
+                        <img
+                          src="/images/about/emp3.png"
+                          alt="e1"
+                          className="mb-1"
+                        />
+                        <p className="pt-4 text-start text-break">
+                          Optimize for low-cost solutions
+                        </p>
+                      </div>
                     </div>
                     <div className="w-75">
-                      <img
-                        src="/images/about/emp1.png"
-                        alt="e1"
-                        className="mb-1"
-                      />
-                      <p className="pt-3 text-start">
-                        Leverage high- quality data for error-proof diagnostics
-                      </p>
+                      <div className="p-2 bg-white" style={{ height: "200px" }}>
+                        <img
+                          src="/images/about/emp1.png"
+                          alt="e1"
+                          className="mb-1"
+                        />
+                        <p className="pt-3 text-start">
+                          Leverage high- quality data for error-proof
+                          diagnostics
+                        </p>
+                      </div>
                     </div>
                     <div className="w-75">
-                      <img
-                        src="/images/about/emp2.png"
-                        alt="e1"
-                        className="mb-1"
-                      />
-                      <p className="pt-3 text-start">
-                        Empower healthcare systems by connecting providers
-                      </p>
+                      <div className="p-2 bg-white" style={{ height: "200px" }}>
+                        <img
+                          src="/images/about/emp2.png"
+                          alt="e1"
+                          className="mb-1"
+                        />
+                        <p className="pt-3 text-start">
+                          Empower healthcare systems by connecting providers
+                        </p>
+                      </div>
                     </div>
                     <div className="w-75">
-                      <img
-                        src="/images/about/emp3.png"
-                        alt="e1"
-                        className="mb-1"
-                      />
-                      <p className="pt-3 text-start">
-                        Optimize for low-cost solutions
-                      </p>
+                      <div className="p-2 bg-white" style={{ height: "200px" }}>
+                        <img
+                          src="/images/about/emp3.png"
+                          alt="e1"
+                          className="mb-1"
+                        />
+                        <p className="pt-3 text-start">
+                          Optimize for low-cost solutions
+                        </p>
+                      </div>
                     </div>
                   </Slider>
                 </Col>

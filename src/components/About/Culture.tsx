@@ -62,10 +62,7 @@ export default class Culture extends Component {
     
     `}
         </style>
-        <div
-          className="position-relative pb-5 overflow-hidden"
-          style={{ backgroundColor: "#f9f9f9" }}
-        >
+        <div className="position-relative pb-5 overflow-hidden">
           <div
             style={{
               backgroundImage: `url("/images/about/culture-rectangle.png")`,
@@ -80,7 +77,7 @@ export default class Culture extends Component {
                   <Col md={2} />
                   <Col md={4}>
                     <h2
-                      className="pt-2 mt-2 pb-1 text-start w-75"
+                      className="pt-2 mt-2 pb-1 text-start w-sm-100 w-lg-75"
                       style={{ fontWeight: 700 }}
                     >
                       Employing a result-oriented approach
@@ -97,7 +94,7 @@ export default class Culture extends Component {
                     </div>
                   </Col>
                   <Col md={6}>
-                    <p className="w-75">
+                    <p className="w-sm-100 w-lg-75 text-sm-center text-lg-start">
                       Kriya Med is a rich and diverse mix of scientists,
                       doctors, engineers, and AI experts – all united by a
                       curiosity to solve complex challenges and improve lives.{" "}
@@ -149,6 +146,13 @@ export default class Culture extends Component {
                     </div>
                     <div>
                       <img src="/images/about/img1.png" alt="e1" />
+                    </div>
+                    <div>
+                      <img src="/images/about/img2.png" alt="e1" />
+                    </div>
+
+                    <div>
+                      <img src="/images/about/img3.png" alt="e1" />
                     </div>
                   </Slider>
                 </Col>
