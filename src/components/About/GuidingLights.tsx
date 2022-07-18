@@ -121,11 +121,12 @@ function GuidingLights() {
                       className="w-sm-100 w-lg-75 pt-2"
                       style={{ color: "2b2b2b" }}
                     >
-                      Good health for all is possible only if healthcare is
-                      affordable. This calls for a noble quest to challenge and
-                      change the present. We strive to look at problems through
-                      the lens of creativity based on the strong foundation of
-                      knowledge.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Vel error vitae, eum quisquam labore illo? Debitis,
+                      aliquid odit veniam facere delectus consequatur beatae
+                      labore aperiam dolore incidunt accusantium amet aspernatur
+                      at dicta. Magnam officia nostrum mollitia quaerat eaque,
+                      quo commodi!
                     </h6>
                   </div>
                 </>
@@ -148,11 +149,9 @@ function GuidingLights() {
                       className="w-sm-100 w-lg-75 pt-2"
                       style={{ color: "2b2b2b" }}
                     >
-                      Good health for all is possible only if healthcare is
-                      affordable. This calls for a noble quest to challenge and
-                      change the present. We strive to look at problems through
-                      the lens of creativity based on the strong foundation of
-                      knowledge.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quidem quos cum laboriosam in distinctio! Quod, et sed
+                      incidunt tempora fugiat debitis doloribus. Accusantium.
                     </h6>
                   </div>
                 </>
@@ -175,11 +174,11 @@ function GuidingLights() {
                       className="w-sm-100 w-lg-75 pt-2"
                       style={{ color: "2b2b2b" }}
                     >
-                      Good health for all is possible only if healthcare is
-                      affordable. This calls for a noble quest to challenge and
-                      change the present. We strive to look at problems through
-                      the lens of creativity based on the strong foundation of
-                      knowledge.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatibus soluta ab perferendis delectus odio quia
+                      veniam quaerat animi aspernatur doloremque, laboriosam
+                      sunt laborum! Sint, et quidem possimus delectus ex
+                      aliquid!
                     </h6>
                   </div>
                 </>
