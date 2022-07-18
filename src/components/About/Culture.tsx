@@ -127,7 +127,7 @@ export default class Culture extends Component {
 
                 <Col
                   xs={8}
-                  md={9}
+                  md={10}
                   className="pt-2 mt-2 pb-1 m-sm-auto text-center align-items-center"
                 >
                   <Slider
