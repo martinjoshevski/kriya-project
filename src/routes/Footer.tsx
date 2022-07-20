@@ -88,7 +88,10 @@ function Footer() {
               </a>
             </div>
             <div className="pb-3">
-              <a href="/" style={{ color: "#2b2b2b", textDecoration: "none" }}>
+              <a
+                href="career"
+                style={{ color: "#2b2b2b", textDecoration: "none" }}
+              >
                 Careers
               </a>
             </div>
@@ -170,6 +173,20 @@ function Footer() {
               <a href="/" style={{ color: "#2b2b2b", textDecoration: "none" }}>
                 Security
               </a>
+            </div>
+          </Col>
+          <Col sm={12} lg={1} />
+        </Row>
+        <Row>
+          <Col sm={12} lg={1} />
+          <Col>
+            <div
+              className="text-end"
+              style={{ borderTop: "1px solid #2b2b2b" }}
+            >
+              <p style={{ color: "#9e4c8f", fontSize: "12px" }}>
+                Copyright © 2021 KRIYA All Rights Reserved
+              </p>
             </div>
           </Col>
           <Col sm={12} lg={1} />

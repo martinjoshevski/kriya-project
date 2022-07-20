@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Button, Col, Row } from "react-bootstrap";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 

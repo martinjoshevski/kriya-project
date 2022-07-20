@@ -6,6 +6,7 @@ import Products from "./routes/Products";
 import Impact from "./routes/Impact";
 import RandD from "./routes/RandD";
 import { Fragment } from "react";
+import Career from "./routes/Career";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="products" element={<Products />} />
         <Route path="impact" element={<Impact />} />
         <Route path="r&d" element={<RandD />} />
+        <Route path="career" element={<Career />} />
       </Routes>
     </Fragment>
   );
